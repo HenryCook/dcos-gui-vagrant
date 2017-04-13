@@ -1,15 +1,11 @@
 #!/bin/bash
 
-sudo apt update
+sudo yum -y 
 
-sudo apt install -y docker docker.io ipset unzip selinux-utils
+sudo yum install -y docker unzip
 
-sudo ln /bin/ln /usr/bin/ln
-sudo ln /bin/rm /usr/bin/rm
-sudo ln /bin/mkdir /usr/bin/mkdir
-sudo ln /bin/tar /usr/bin/tar
-sudo ln /usr/sbin/useradd /usr/bin/useradd
+sudo mkdir -p /root/.ssh/
 
-sudo cat /vagrant_shared/id_rsa.pub >> /home/ubuntu/.ssh/authorized_keys
+sudo cat /vagrant_shared/id_rsa.pub >> /root/.ssh/authorized_keys
 
 exit 0

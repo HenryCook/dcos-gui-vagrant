@@ -24,7 +24,7 @@ Once set up the Master can be found here [localhost:8080](http://localhost:8080)
 - **Master Public** http://192.168.1.10/
 
 #### SSH
-- **User:** ubuntu
+- **User:** root (I know this isn't very security minded however this is for **local** testing only)
 - **Port:** 22
 
 #### SSH Key
