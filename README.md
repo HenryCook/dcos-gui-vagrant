@@ -1,5 +1,5 @@
-# dcos-gui-vagrant
-DCOS GUI Vagrant Project
+# DC/OS GUI Vagrant
+DC/OS GUI Vagrant Project
 
 ## Background
 After having a play with DCOS bootstrapping via GUI and CLI, I thought it would be nice to dump my work for others to peruse. It's not particularly clever but it works. Don't judge.
