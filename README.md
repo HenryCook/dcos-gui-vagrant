@@ -18,10 +18,10 @@ Once set up the Master can be found here [localhost:8080](http://localhost:8080)
 ### Deployment Settings
 
 #### Nodes
-- **Master:** 192.168.1.10
-- **Agent:** 192.168.10.11
-- **Bootstrap:** 192.168.1.12
-- **Master Public** http://192.168.1.10/
+- **Master:** 10.1.1.10
+- **Agent:** 10.1.1.11
+- **Bootstrap:** 10.1.1.12
+- **Master Public** http://10.1.1.10/
 
 #### SSH
 - **User:** root (I know this isn't very security minded however this is for **local** testing only)
