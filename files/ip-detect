@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 set -o nounset -o errexit
 export PATH=/usr/sbin:/usr/bin:$PATH
-echo $(ip -f inet addr show | grep -Po 'inet \K[\d.]+' | grep -v '127.0.0.1')
-
+echo $(ip addr show eth1 | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
