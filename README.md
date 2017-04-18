@@ -11,17 +11,13 @@ For the ssh key I have created a script in the `scripts` directory named `genera
 
 `bash scripts/generate_ssh_keys.sh`
 
-The private Key will then be required for the set up via the GUI which will be found here [localhost:9090](http://localhost:9090)
-
-Once set up the Master can be found here [localhost:8080](http://localhost:8080)
-
 ### Deployment Settings
 
 #### Nodes
-- **Master:** 192.168.1.10
-- **Agent:** 192.168.10.11
-- **Bootstrap:** 192.168.1.12
-- **Master Public** http://192.168.1.10/
+- **Master:** 10.1.1.10
+- **Agent:** 10.1.1.11
+- **Bootstrap:** 10.1.1.12
+- **Master Public** http://10.1.1.10/
 
 #### SSH
 - **User:** root (I know this isn't very security minded however this is for **local** testing only)
@@ -43,3 +39,11 @@ First generate the ssh keys:
 Then run Vagrant:
 
 `vagrant up`
+
+Navigate to the DC/OS installer (link below):
+
+[localhost:9090](http://localhost:9090)
+
+Once you've succesfully installed DC/OS, you'll be redirected to the GUI:
+
+[10.1.1.10](http://10.1.1.10/)
